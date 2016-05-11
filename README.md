@@ -497,6 +497,8 @@ By default a single database is exposed with all it's tables and columns in read
 a 'table_authorizer' and/or a 'column_authorizer' function that returns a boolean indicating whether or not the table or column is allowed
 for a specific CRUD action.
 
+```here```
+
 ## Record filter
 
 By defining a 'record_filter' function you can apply a forced filter, for instance to implement roles in a database system.
